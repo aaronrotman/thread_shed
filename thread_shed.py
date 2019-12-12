@@ -107,3 +107,8 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 
 #------------------------------------------------
 # Start coding below!
+#Replace all instances of ;,; with ; in daily_sales
+daily_sales_replaced = daily_sales.replace(';,;', ';')
+
+#Uncomment the statement below to test daily_sales_replaced
+#print(daily_sales_replaced)
